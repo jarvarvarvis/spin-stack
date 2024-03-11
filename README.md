@@ -4,7 +4,7 @@ An esoteric programming language with a rotating instruction set, stack memory a
 
 A value on spin-stack's stack and heap is a signed 16-bit integer.
 
-Rotor's stack and heap both have a size of 32768 (=2^15).
+spin-stack's stack and heap both have a size of 32768 (=2^15).
 
 ## Instructions (normalized)
 
