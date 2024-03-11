@@ -1,0 +1,4 @@
+000 33   # => three
+11 4 03  # => ten
+111 444  # => ten^four
+4        # => thirty thousand

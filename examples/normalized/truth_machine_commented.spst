@@ -1,0 +1,15 @@
+# Put two ones on the stack, the top is immediately consumed by the jump fwd instruction
+0 1 7
+# Duplicate the top value twice, once for the jump fwd and once for the jump back
+1 1
+
+# IO specifier zero (read ASCII)
+0 1 2 3
+9
+
+# IO speifier two (write ASCII)
+0 0 3
+9
+
+# Jump back
+8

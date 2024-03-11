@@ -1,0 +1,11 @@
+# Push a fifteen on the stack
+00000 3333
+000 33 4
+
+# Write it to the heap at address five
+00000 3333
+6 
+
+# Read back the value at address five
+00000 3333
+5

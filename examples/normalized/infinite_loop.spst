@@ -1,0 +1,7 @@
+# Put two ones on the stack, the top is immediately consumed by the jump fwd instruction
+0 1
+7
+# Duplicate top value twice, once for the jump fwd and once for the jump back
+11
+# Jump back
+8

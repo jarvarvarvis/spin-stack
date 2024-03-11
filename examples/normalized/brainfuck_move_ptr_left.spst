@@ -1,0 +1,57 @@
+# Set pointer to some value
+003
+(00033 11403 111444 4)
+6
+
+# Load ptr value
+(00033 11403 111444 4) 5
+
+# Decrement
+023
+
+# If the value is negative one, set it back to thirty thousand - one
+# Subtract: ptr - (-one) = ptr + one
+03
+
+# Store difference for later
+1
+(00033 11403 111444 4) 03  # heap addr
+6
+
+# Prepare stack: <diff> one <diff>
+0
+(00033 11403 111444 4) 03  # same heap addr
+5
+
+# If the value is not zero...
+7
+
+# Update pointer to the new value
+(00033 11403 111444 4) 5
+023
+(00033 11403 111444 4)
+6
+
+# At the end, the stack can contain anything, but there must be a zero on top
+# (for multiple checks get it to the format: ... <input> <difference> zero)
+# Replace one with a zero
+0123 4
+
+0123
+8
+
+# One or zero remains on the stack
+
+# If the value is zero...
+7
+
+# Set ptr to thirty thousand - one
+(00033 11403 111444 4) 023
+(00033 11403 111444 4)
+6
+
+0123
+8
+
+# Clear stack
+123 0039

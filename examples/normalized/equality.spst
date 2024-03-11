@@ -1,0 +1,46 @@
+# Read one letter from stdin and store on the stack two times
+0123 9
+1
+
+# Check for letter 'A' (ASCII: sixty-five)
+003 14 11 44 03
+
+##### Equality recipe #####
+
+# Subtract: (input - checked value)
+2  # Negate
+3  # Add
+2  # Negate again
+
+# Store difference for later
+1
+0123  # heap addr
+6
+
+# Prepare stack: <diff> one <diff>
+0
+0123  # same heap addr as above (location of difference)
+5
+
+# If the value is not zero...
+7
+
+# Code here...
+
+# At the end, the stack can contain anything, but there must be a zero on top
+# (for multiple checks get it to the format: ... <input> <difference> zero)
+# Replace one with a zero
+0123 4
+
+0123
+8
+
+# One or zero remains on the stack
+
+# If the value is zero...
+7
+
+# Code here...
+
+0123
+8

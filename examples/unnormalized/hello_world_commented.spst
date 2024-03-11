@@ -1,0 +1,41 @@
+# Push newline
+0 1 5 4 7 6 9 7 8 2 3
+# Push letter '!'
+1 2 6 5 9 7 1 9 2 0 4
+# Push letter 'd'
+2 3 4 8 9 8 2 9 3 2 6
+# Push letter 'l'
+4 4 5 9 8 1 0 3 4
+# Push letter 'r'
+3 3 4 5 9 0 9 2 3
+# Push letter 'o'
+2 2 3 4 8 9 9 1
+# Push letter 'w'
+0 0 1 5 4 7 6 9 0
+# Push letter ' '
+8 9 3 2 5 4 7 6 9 8 1
+# Push letter 'o'
+9 0 1 5 6 5 9 6 0 9 9 3 5 2 6
+# Push letter 'l'
+5 5 6 7 1 2 2 4
+# Push letter 'l'
+3
+# Push letter 'e'
+4 4 5 9 8 1 0 3 3 5 3 7
+# Push letter 'H'
+5 6 0 9 2 1 4 3 4 8 8
+
+# Output entire string
+67 1 8     # IO operation (output character as ASCII)
+01 5 2     # IO operation (output character as ASCII)
+45 9 6     # IO operation (output character as ASCII)
+89 3 0     # IO operation (output character as ASCII)
+23 7 4     # IO operation (output character as ASCII)
+67 1 8     # IO operation (output character as ASCII)
+01 5 2     # IO operation (output character as ASCII)
+45 9 6     # IO operation (output character as ASCII)
+89 3 0     # IO operation (output character as ASCII)
+23 7 4     # IO operation (output character as ASCII)
+67 1 8     # IO operation (output character as ASCII)
+01 5 2     # IO operation (output character as ASCII)
+45 9 6     # IO operation (output character as ASCII)
