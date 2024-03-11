@@ -9,21 +9,7 @@ spin-stack's stack and heap both have a size of 32768 (=2^15).
 ## cloc output
 
 ```
--------------------------------------------------------------------------------
-Language                     files          blank        comment           code
--------------------------------------------------------------------------------
-spin-stack                      26             52             95            491
-C                                8             84             36            381
-Markdown                         2             82              0            231
-Text                             1              8              0            104
-Python                           3             27              9             80
-C/C++ Header                     7             29              0             78
-make                             1             31             11             60
-Bourne Shell                     2              4              5             29
-CMake                            1              5              0             13
--------------------------------------------------------------------------------
-SUM:                            51            322            156           1467
-
+@CLOC_OUTPUT@
 ```
 
 ## Instructions (normalized)
